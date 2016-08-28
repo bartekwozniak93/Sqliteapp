@@ -38,6 +38,10 @@ public class MyDB {
         return db.delete(MyDBHelper.tableName, MyDBHelper.columnName1 + "=" + columnNameToBeDeleted, null);
     }
 
+    public void deleteAllRecords() {
+        db.delete(MyDBHelper.tableName, null, null);
+    }
+
     public long updateRecord(long name1_str, String name2_str, String name3_str) {
         ContentValues initialValues = new ContentValues();
         initialValues.put(MyDBHelper.columnName2, name2_str);

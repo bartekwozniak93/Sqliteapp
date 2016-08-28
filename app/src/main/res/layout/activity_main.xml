@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/furnitureText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -27,7 +27,7 @@
 
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/classText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -77,10 +77,9 @@
         android:layout_below="@+id/linearLayout3">
 
         <TextView
-            android:id="@+id/editText3"
+            android:id="@+id/scrollBarView"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="adfnbaskjdnaklsdmnlkasndmlknfkldf"/>
+            android:layout_height="fill_parent" />
     </LinearLayout>
 
 </RelativeLayout>
