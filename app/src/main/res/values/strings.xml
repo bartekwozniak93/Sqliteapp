@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sqliteapp</string>
+    <string name="furniture">Furniture</string>
+    <string name="room">Class</string>
+    <string name="addRecord">Add Record</string>
+    <string name="deleteAllRecords">Delete All Records</string>
+</resources>
